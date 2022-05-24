@@ -1,6 +1,7 @@
 {
   "name": "rug-commerce",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Rug E-Commerce",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,13 +9,42 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idkan/rug-ecommerce"
+  },
+  "keywords": [
+    "e-commerce",
+    "rug"
+  ],
+  "author": "Abraham Serena <abraham.serena.lk@gmail.com> (https://idkan.dev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idkan/rug-ecommerce/issues"
+  },
+  "homepage": "https://github.com/idkan/rug-ecommerce#readme",
   "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@sanity/cli": "^2.30.0",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.25.0",
+    "canvas-confetti": "^1.5.1",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "sanity": "^2.29.3",
+    "stripe": "^8.209.0"
   },
   "devDependencies": {
-    "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
+    "@babel/preset-react": "^7.16.7",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "standard": "16.0.4",
+    "tailwindcss": "^3.0.24"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
   }
 }
